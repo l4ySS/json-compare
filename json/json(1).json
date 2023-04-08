@@ -1,0 +1,10 @@
+{
+	"Shell": {
+		"Profile" : "Profile",
+		"SignOut" : "Выйти",
+		"CloseView" : "",
+		"Settings" : "Settings",
+		"ModifySettings" : "Дополнительные настройки",
+		"Help" : ["Помощь", "Справка"]
+	}
+}

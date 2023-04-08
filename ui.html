@@ -6,22 +6,29 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
-    <script src='js/main.js' type="js"></script>
-    <script src='js/compare.js' type="js"></script>
+ 
 </head>
 <body>
-    <script type="js"></script>
-    <div>
+    <div class = "center">
         <table>
             <tr>
                 <th><label for="file1">Выберите JSON</label></th>
                 <th><label for="file1">Выберите JSON</label></th>
             </tr>
             <tr>
-                <th><input type="file" name="file1" id="file1" class="hidden"></th>
-                <th><input type="file" name="file2" id="file2" class="hidden"></th>
+                <th><input type="file" name="file1" id="file1" onchange="inputJSON()"></th>
+                <th><input type="file" name="file2" id="file2" onchange="inputJSON()"></th>
             </tr>
+            <tr>
+                <td><pre id="result1"></pre></td>
+                <td><pre id="result2"></pre></td>
+            </tr>
+            
         </table>
     </div>
+    <button value="Calculate" onclick="start()">Кнопка</button>
+    <pre id ="result3" class="center"></pre>
+    <pre id ="result4" class="center"></pre>
+        <script src="js/main.js"></script>
 </body>
 </html>
