@@ -4,7 +4,7 @@
 		"SignOut" : "Выйти",
 		"CloseView" : "",
 		"ModifySettings" : "Дополнительные настройки",
-        "Settings" : "Settings",
+        "Settings" : "Setting",
 		"Help" : ["Помощь", "Справка"]
 	}
 }

@@ -3,7 +3,7 @@
 		"Profile" : "Profile",
 		"SignOut" : "Выйти",
 		"CloseView" : "",
-		"Settings" : "Setting",
+		"Set" : "Setting",
 		"ModifySettings" : "Дополнительные настройки",
 		"Help" : ["Помощь", "Справка"]
 	}
