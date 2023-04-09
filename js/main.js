@@ -79,7 +79,7 @@ function inputJSON() {
         res = event.target.result;
         obj1 = JSON.parse(res);
     };
-    reader1.readAsTex (file1);
+    reader1.readAsText(file1);
     
     reader2.onload = function(event) {
         res = event.target.result;
